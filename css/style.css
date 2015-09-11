@@ -142,7 +142,7 @@ blockquote {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background-color: rgba(0, 0, 0, 0.55);
+	background-color: rgba(0, 0, 0, 0.35);
 	content: "";
 }
 .banner-caption {
@@ -233,10 +233,12 @@ blockquote {
 	position: relative;
 }
 .bg-image-1 {
-	background: url("../images/bg-image-1.jpg") 50% 0px no-repeat;
+	background: url("../images/bckground1.jpg") 10% 0px no-repeat;
+    background-size: 80px 60px;
 }
 .bg-image-2 {
-	background: url("../images/bg-image-2.jpg") 50% 0px no-repeat;
+	background: url("../images/bckground1.jpg") 10% 0px no-repeat;
+    background-size: contain;
 }
 
 /* Misc

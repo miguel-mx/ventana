@@ -93,14 +93,14 @@
 
 										<!-- Collect the nav links, forms, and other content for toggling -->
 										<div class="collapse navbar-collapse scrollspy smooth-scroll" id="navbar-collapse-1">
-											<ul class="nav navbar-nav navbar-right">
+											<ul class="nav navbar-nav navbar-left">
 												<li class="active"><a href="#inicio">Inicio</a></li>
 												<li><a href="#quienes-somos">¿Quiénes somos?</a></li>
-												<li><a href="#comite">Comité Organizador</a></li>
+												<li><a href="#comite">Comités</a></li>
 												<li><a href="#programa">Programa</a></li>
-												<li><a href="#clients">Pláticas y cursos</a></li>
-												<li><a href="#contact">¿Cómo llegar?</a></li>
-                                                <li><a href="#contact">Contacto</a></li>
+												<li><a href="#platicas">Pláticas y cursos</a></li>
+												<li><a href="#sede">Sede</a></li>
+                                                <li><a href="#registro"  data-toggle="modal" data-target="#regModal">Registro</a></li>
 											</ul>
 										</div>
 
@@ -120,6 +120,37 @@
 		</header>
 		<!-- header end -->
 
+        <!-- Modal -->
+        <div class="modal fade" id="regModal" tabindex="-1" role="dialog" aria-labelledby="regModalLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="regModalLabel">Una Ventana Discreta - Registro</h4>
+              </div>
+              <div class="modal-body">
+
+                <strong>Proceso de registro:</strong><p></p>
+
+                  <ul>
+                      <li>Descargar el archivo word, llenar todos los campos que correspondan y enviar a la dirección de
+                          correo ventanadiscreta<i class="fa fa-at"></i>matmor.unam.mx</li>
+                      <li>Si el solicitante es estudiante, enviar también una carta de recomendación de un profesor.</li>
+                  </ul>
+                  <a href="images/Solicitud.docx" class="btn btn-default btn-lg btn-block active" role="button"><i class="fa fa-download"></i> Solicitud.docx</a>
+                  <p></p>
+                  <div class="alert alert-info" role="alert"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
+                      La fecha límite de registro es el viernes 6 de noviembre.
+                  </div>
+
+                  <p>El viernes 13 de noviembre se darán a conocer los resultados de los alumnos a los que se brindará apoyo.</p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+
 		<!-- banner start -->
 		<!-- ================ -->
 		<div id="inicio" class="banner">
@@ -128,7 +159,11 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2 object-non-visible" data-animation-effect="fadeIn">
-							<h1 class="text-center">Una Ventana <span>Discreta</span></h1>
+							<!--<h1 class="text-center">Una Ventana <span>Discreta</span></h1>-->
+                            <img src="images/cabezal_Tipografia.png" alt="" class="img-responsive">
+                            <div class="page-header"><h3>Del 2 al 5 de diciembre de 2015<br>
+                                <small>Unidad Multidisciplinaria de Docencia e Investigación (UMDI, FC), UNAM,
+Campus Juriquilla</small></h3></div>
 							<p class="lead text-center">Una ventana discreta es un taller diseñado para estudiantes y profesores de matemáticas a nivel licenciatura en todo el país que quieran saber "un
 poquito" de combinatoria y matemáticas discretas.</p>
 						</div>
@@ -136,7 +171,8 @@ poquito" de combinatoria y matemáticas discretas.</p>
 				</div>
 			</div>
 		</div>
-		<!-- banner end -->
+
+        <!-- banner end -->
 
 		<!-- section start -->
 		<!-- ================ -->
@@ -172,129 +208,114 @@ impartidos por profesores e investigadores expertos en los temas que se abordar�
 
                             </div>
                         </div>
-
-                        <div class="space"></div>
-
 					</div>
 				</div>
-			</div>
-		</div>
-		<!-- section end -->
-
-		<!-- section start -->
-		<!-- ================ -->
-		<div class="section translucent-bg bg-image-1 blue">
-			<div class="container object-non-visible" data-animation-effect="fadeIn">
-				<h1 id="comite"  class="text-center title">Comités</h1>
-				<div class="space"></div>
-                <p class="lead text-center">Comité organizador</p>
                 <div class="space"></div>
-
-                <div class="row">
-
-                    <div class="col-md-4">
-                        <div class="media testimonial">
-                            <div class="media-left">
-                                <img src="images/testimonial-1.png" alt="">
-                            </div>
-                            <div class="media-body">
-                                <h3 class="media-heading">Gabriela Araujo</h3>
-                                <blockquote>
-                                    <p><small>IMUNAM-Juriquilla</small></p>
-                                </blockquote>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="media testimonial">
-                            <div class="media-left">
-                                <img src="images/testimonial-2.png" alt="">
-                            </div>
-                            <div class="media-body">
-                                <h3 class="media-heading">Walter Carballosa</h3>
-                                <blockquote>
-                                    <p><small>UAZ</small></p>
-                                </blockquote>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="media testimonial">
-                            <div class="media-left">
-                                <img src="images/testimonial-3.png" alt="">
-                            </div>
-                            <div class="media-body">
-                                <h3 class="media-heading">Juan José Montellano</h3>
-                                <blockquote>
-                                    <p><small>IMUNAM</small></p>
-                                </blockquote>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row">
-
-                    <div class="col-md-4">
-                        <div class="media testimonial">
-                            <div class="media-left">
-                                <img src="images/testimonial-1.png" alt="">
-                            </div>
-                            <div class="media-body">
-                                <h3 class="media-heading">Mika Olsen</h3>
-                                <blockquote>
-                                    <p><small>UAM-I</small></p>
-                                </blockquote>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="media testimonial">
-                            <div class="media-left">
-                                <img src="images/testimonial-2.png" alt="">
-                            </div>
-                            <div class="media-body">
-                                <h3 class="media-heading">Daniel Pellicer</h3>
-                                <blockquote>
-                                    <p><small>CCM-UNAM</small></p>
-                                </blockquote>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="media testimonial">
-                            <div class="media-left">
-                                <img src="images/testimonial-3.png" alt="">
-                            </div>
-                            <div class="media-body">
-                                <h3 class="media-heading">Gelasio Salazar</h3>
-                                <blockquote>
-                                    <p><small>UASLP</small></p>
-                                </blockquote>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
+                <h2>Contacto: <small>ventanadiscreta<i class="fa fa-at"></i>matmor.unam.mx</small></h2>
                 <div class="space"></div>
-                <p class="lead text-center">Comité de apoyo</p>
-                <div class="space"></div>
-
-
             </div>
 		</div>
 		<!-- section end -->
 
 		<!-- section start -->
 		<!-- ================ -->
-		<div class="default-bg space blue">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2">
-						<h1 class="text-center">Let's Work Together!</h1>
-					</div>
-				</div>
-			</div>
+		<!--<div class="section translucent-bg bg-image-1 blue">-->
+        <!--<div class="section default-bg space">-->
+        <!--<div class="section default-bg">-->
+        <div class="section translucent-bg bg-image-1 pb-clear">
+			<div class="container object-non-visible" data-animation-effect="fadeIn">
+				<h2 id="comite"  class="text-center title">Comité Organizador</h2>
+
+                <div class="space"></div>
+                <div class="row">
+                    <div class="col-sm-4 col-sm-offset-3">
+                        <div class="media">
+							<div class="media-body text-left">
+								<h4 class="media-heading">Gabriela Araujo</h4>
+								<p class="text-right">IMUNAM-Juriquilla</p>
+							</div>
+						</div>
+                        <div class="media">
+                            <div class="media-body text-left">
+                                <h4 class="media-heading">Walter Carballosa</h4>
+                                <p>UAZ</p>
+                            </div>
+                        </div>
+                        <div class="media">
+                            <div class="media-body text-left">
+                                <h4 class="media-heading">Juan José Montellano</h4>
+                                <p>IMUNAM</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="space visible-md"></div>
+                    <div class="col-sm-4">
+                        <div class="media">
+                            <div class="media-body text-left">
+                                <h4 class="media-heading">Mika Olsen</h4>
+                                <p>UAM-I</p>
+                            </div>
+                        </div>
+                        <div class="media">
+                            <div class="media-body text-left">
+                                <h4 class="media-heading">Daniel Pellicer</h4>
+                                <p>CCM-UNAM</p>
+                            </div>
+                        </div>
+                        <div class="media">
+                            <div class="media-body text-left">
+                                <h4 class="media-heading">Gelasio Salazar</h4>
+                                <p>UASLP</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="space"></div>
+                <h3 id="comite"  class="text-center title">Comité de Apoyo</h3>
+
+                <div class="space"></div>
+                <div class="row">
+                    <div class="col-sm-4 col-sm-offset-3">
+                        <div class="media">
+                            <div class="media-body text-left">
+                                <h4 class="media-heading">Isaac Arelio Ríos</h4>
+                                <p class="text-right">Posgrado en Ciencias Matemáticas, UNAM-Juriquilla</p>
+                            </div>
+                        </div>
+                        <div class="media">
+                            <div class="media-body text-left">
+                                <h4 class="media-heading">José Collins Castro</h4>
+                                <p>Posgrado en Ciencias Matemáticas, UNAM</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="space"></div>
+
+                    <div class="space visible-md"></div>
+                    <div class="col-sm-4">
+                        <div class="media">
+                            <div class="media-body text-left">
+                                <h4 class="media-heading">Juan Carlos Díaz Patiño</h4>
+                                <p>Posgrado en Ciencias Matemáticas, UNAM-Juriquilla</p>
+                            </div>
+                        </div>
+                        <div class="media">
+                            <div class="media-body text-left">
+                                <h4 class="media-heading">José Antonio Montero Aguilar</h4>
+                                <p>Posgrado Conjunto en Ciencias Matemáticas, UNAM-UMSNH</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="space"></div>
+            <div class="space"></div>
+            <div class="space"></div>
+            <div class="space"></div>
+
 		</div>
 		<!-- section end -->
 
@@ -303,700 +324,242 @@ impartidos por profesores e investigadores expertos en los temas que se abordar�
         <div class="section">
             <div class="container">
                 <h1 class="text-center title" id="programa">Programa</h1>
+                <div class="space"></div>
                 <div class="separator"></div>
-                <p class="lead text-center">Lorem ipsum dolor sit amet laudantium molestias similique.<br> Quisquam incidunt ut laboriosam.</p>
-                <br>
+                <!--<p class="lead text-center">Lorem ipsum dolor sit amet laudantium molestias similique.<br> Quisquam incidunt ut laboriosam.</p>-->
+                <!--<br>-->
+<!--                <div class="page-header">
+                    <h3>Talks</h3>
+                </div>-->
                 <div class="row">
-                    <div class="col-md-12">
-
-                        <h3>Talks</h3>
-
+                    <div class="col-md-3">
                         <table class="calendar table table-bordered">
                             <thead>
                             <tr class="success">
                                 <th class="time">&nbsp;</th>
                                 <th>Miércoles 2</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td class="time"><small>17:00-18:00</small></td>
+                                <td colspan="1" rowspan="1">
+                                    Coloquio Queretano*
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="time"><small>18:00-19:00</small></td>
+                                <td colspan="1" rowspan="1"></td>
+                            </tr>
+                            <tr>
+                                <td class="time"><small>19:00-20:00</small></td>
+                                <td colspan="1" rowspan="1">Bienvenida</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <p><em>* para aquellos que puedan llegar temprano</em></p>
+
+                    </div>
+                    <div class="col-md-3">
+                        <table class="calendar table table-bordered">
+                            <thead>
+                            <tr class="success">
+                                <th class="time">&nbsp;</th>
                                 <th>Jueves 3</th>
-                                <th>Viernes 4</th>
-                                <th>Sábado 5</th>
                             </tr>
                             </thead>
                             <tbody>
 
                             <tr>
-                                <td class="time"><small>09:00 am</small></td>
-                                <td class="slot slot-Break" colspan="1" rowspan="1">
-                                    <p></p>
+                                <td class="time"><small>09:00-9:50</small></td>
+                                <td colspan="1" rowspan="1">Bienvenida/Plática</td>
+                            </tr>
+
+                            <tr>
+                                <td class="time"><small>10:00-11:30</small></td>
+                                <td colspan="2" rowspan="1">
+                                    <p>Curso I</p>
                                 </td>
                             </tr>
 
                             <tr>
-                                <td class="time"><small>10:00 am</small></td>
-                                <td class="slot slot-plenarybreak" colspan="1" rowspan="1">
-                                    <p>Breakfast/Registration (GB Prefunction)</p>
-                                </td>
+                                <td class="time"><small>11:30-12:00</small></td>
+                                <td colspan="2" rowspan="1">Café</td>
                             </tr>
 
                             <tr>
-                                <td class="time"><small>11:30 am</small></td>
-                                <td class="slot slot-Welcome" colspan="1" rowspan="1">
-                                    Welcome
-                                </td>
+                                <td class="time"><small>12:00-12:50</small></td>
+                                 <td colspan="2" rowspan="1">Plática</td>
                             </tr>
 
                             <tr>
-                                <td class="time">09:15AM</td>
-                                <td class="slot slot-Keynote" colspan="1" rowspan="1">
-                                    <p>Keynote - Lorena Barba</p>
-                                </td>
+                                <td class="time"><small>13:00-13:50</small></td>
+                                <td colspan="2" rowspan="1">Plática</td>
                             </tr>
 
                             <tr>
-                                <td class="time">10:00AM</td>
-                                <td class="slot slot-plenarybreak" colspan="1" rowspan="1">
-                                    <p>Coffee Break (GB Hallway)</p>
-                                </td>
+                                <td class="time"><small>14:00-16:00</small></td>
+                                <td colspan="2" rowspan="1">Comida</td>
                             </tr>
 
                             <tr>
-                                <td class="time">10:15AM</td>
-                                <td class="slot slot-edu" colspan="1" rowspan="1">
-
-                                <span class="title">
-                                    <a href="/scipy2014/schedule/presentation/1673/">Frequentism and Bayesianim: What&#39;s the Big Deal?</a>
-                                </span>
-                                <span class="speaker">
-                                    Jake VanderPlas
-                                </span>
-                                </td>
-                                <td class="slot slot-geospatial" colspan="1" rowspan="1">
-
-                                <span class="title">
-                                    <a href="/scipy2014/schedule/presentation/1674/">GeoPandas: Geospatial data + pandas</a>
-                                </span>
-                                <span class="speaker">
-                                    Kelsey Jordahl
-                                </span>
-
-                                </td>
-                                <td class="slot slot-General" colspan="1" rowspan="1">
-
-                                <span class="title">
-                                    <a href="/scipy2014/schedule/presentation/1675/">Python backends for climate science web-apps</a>
-                                </span>
-                                <span class="speaker">
-                                    Nicolas  Fauchereau
-                                </span>
-
-                                </td>
+                                <td class="time"><small>16:00-17:30</small></td>
+                                <td colspan="2" rowspan="1">Curso II</td>
                             </tr>
 
                             <tr>
-                                <td class="time">10:45AM</td>
-
-                                <td class="slot slot-edu" colspan="1" rowspan="1">
-
-
-                                <span class="title">
-                                    <a href="/scipy2014/schedule/presentation/1676/">A Common Scientific Compute Environment for Research and Education</a>
-                                </span>
-                                <span class="speaker">
-                                    Dav Clark
-                                </span>
-
-
-                                </td>
-
-                                <td class="slot slot-geospatial" colspan="1" rowspan="1">
-
-
-                                <span class="title">
-                                    <a href="/scipy2014/schedule/presentation/1677/">Fast Algorithms for Binary Spatial Adjacency Measures</a>
-                                </span>
-                                <span class="speaker">
-                                    Jason Laura, Serge Rey
-                                </span>
-
-
-                                </td>
-
-                                <td class="slot slot-General" colspan="1" rowspan="1">
-
-
-                                <span class="title">
-                                    <a href="/scipy2014/schedule/presentation/1678/">Integrating pylearn2 and hyperopt: taking deep learning further with hyperparameter optimization</a>
-                                </span>
-                                <span class="speaker">
-                                    David Warde-Farley
-                                </span>
-
-
-                                </td>
-
-
+                                <td class="time"><small>17:30-19:00</small></td>
+                                <td colspan="2" rowspan="1">Rally</td>
                             </tr>
-
-                            <tr>
-                                <td class="time">11:15AM</td>
-
-                                <td class="slot slot-edu" colspan="1" rowspan="1">
-
-
-                                <span class="title">
-                                    <a href="/scipy2014/schedule/presentation/1679/">Project-based introduction to scientific computing for physics majors</a>
-                                </span>
-                                <span class="speaker">
-                                    Jennifer Klay
-                                </span>
-
-
-                                </td>
-
-                                <td class="slot slot-geospatial" colspan="1" rowspan="1">
-
-
-                                <span class="title">
-                                    <a href="/scipy2014/schedule/presentation/1680/">CANCELLED: The PlaceIQ Location-Based Analytic Platform: </a>
-                                </span>
-                                <span class="speaker">
-                                    Eliza Chang, Juan Huerta
-                                </span>
-
-
-                                </td>
-
-                                <td class="slot slot-General" colspan="1" rowspan="1">
-
-
-                                <span class="title">
-                                    <a href="/scipy2014/schedule/presentation/1681/">SociaLite: Python-integrated query language for data analysis</a>
-                                </span>
-                                <span class="speaker">
-                                    Jiwon Seo
-                                </span>
-
-
-                                </td>
-
-
-                            </tr>
-
-                            <tr>
-                                <td class="time">11:45AM</td>
-
-                                <td class="slot slot-edu" colspan="1" rowspan="1">
-
-
-                                <span class="title">
-                                    <a href="/scipy2014/schedule/presentation/1682/">Practical experience in teaching numerical methods with IPython notebooks</a>
-                                </span>
-                                <span class="speaker">
-                                    David I. Ketcheson
-                                </span>
-
-
-                                </td>
-
-                                <td class="slot slot-geospatial" colspan="1" rowspan="1">
-
-
-                                <span class="title">
-                                    <a href="/scipy2014/schedule/presentation/1683/">Light-weight real-time event detection with Python</a>
-                                </span>
-                                <span class="speaker">
-                                    Carson Farmer
-                                </span>
-
-
-                                </td>
-
-                                <td class="slot slot-General" colspan="1" rowspan="1">
-
-
-                                <span class="title">
-                                    <a href="/scipy2014/schedule/presentation/1684/">the failure of python object serialization: why HPC in python is broken, and how to fix it</a>
-                                </span>
-                                <span class="speaker">
-                                    Michael McKerns
-                                </span>
-
-
-                                </td>
-
-
-                            </tr>
-
-                            <tr>
-                                <td class="time">12:15PM</td>
-
-                                <td class="slot slot-plenarybreak" colspan="1" rowspan="1">
-
-
-                                    <p>Lunch</p>
-
-
-                                </td>
-
-
-                            </tr>
-
-                            <tr>
-                                <td class="time">01:30PM</td>
-
-                                <td class="slot slot-BOFs" colspan="1" rowspan="1">
-
-
-                                    <p>See BOF schedule</p>
-
-
-                                </td>
-
-                                <td class="slot slot-BOFs" colspan="1" rowspan="1">
-
-
-                                    <p>See BOF schedule</p>
-
-
-                                </td>
-
-                                <td class="slot slot-BOFs" colspan="1" rowspan="1">
-
-
-                                    <p>See BOF schedule</p>
-
-
-                                </td>
-
-                                <td class="slot slot-BOFs" colspan="1" rowspan="1">
-
-
-                                    <p>BOFs (Room 106)</p>
-
-
-                                </td>
-
-
-                            </tr>
-
-                            <tr>
-                                <td class="time">02:15PM</td>
-
-                                <td class="slot slot-edu" colspan="1" rowspan="1">
-
-
-                                <span class="title">
-                                    <a href="/scipy2014/schedule/presentation/1685/">Taking Control - Enabling Mathematicians and Scientists</a>
-                                </span>
-                                <span class="speaker">
-                                    Matthew Rocklin
-                                </span>
-
-
-                                </td>
-
-                                <td class="slot slot-geospatial" colspan="1" rowspan="1">
-
-
-                                <span class="title">
-                                    <a href="/scipy2014/schedule/presentation/1686/">Spatial-Temporal Prediction of Climate Change Impacts using pyimpute, scikit-learn and GDAL</a>
-                                </span>
-                                <span class="speaker">
-                                    Matthew Perry
-                                </span>
-
-
-                                </td>
-
-                                <td class="slot slot-General" colspan="1" rowspan="1">
-
-
-                                <span class="title">
-                                    <a href="/scipy2014/schedule/presentation/1687/">WCSAxes: a framework for plotting astronomical and geospatial data</a>
-                                </span>
-                                <span class="speaker">
-                                    Thomas Robitaille
-                                </span>
-
-
-                                </td>
-
-
-                            </tr>
-
-                            <tr>
-                                <td class="time">02:45PM</td>
-
-                                <td class="slot slot-edu" colspan="1" rowspan="1">
-
-
-                                <span class="title">
-                                    <a href="/scipy2014/schedule/presentation/1688/">Creating a browser-based virtual computer lab for classroom instruction</a>
-                                </span>
-                                <span class="speaker">
-                                    Ramalingam Saravanan
-                                </span>
-
-
-                                </td>
-
-                                <td class="slot slot-geospatial" colspan="1" rowspan="1">
-
-
-                                <span class="title">
-                                    <a href="/scipy2014/schedule/presentation/1689/">Climate &amp; GIS: User friendly data access, workflows, manipulation, analysis and visualization of cli</a>
-                                </span>
-                                <span class="speaker">
-                                    Aashish Chaudhary, Benjamin Koziol, Charles Doutriaux, Chris Harris
-                                </span>
-
-
-                                </td>
-
-                                <td class="slot slot-General" colspan="1" rowspan="1">
-
-
-                                <span class="title">
-                                    <a href="/scipy2014/schedule/presentation/1690/">PyViennaCL: Very easy GPGPU linear algebra</a>
-                                </span>
-                                <span class="speaker">
-                                    Toby St Clere Smithe
-                                </span>
-
-
-                                </td>
-
-
-                            </tr>
-
-                            <tr>
-                                <td class="time">03:15PM</td>
-
-                                <td class="slot slot-plenarybreak" colspan="1" rowspan="1">
-
-
-                                    <p>Coffee Break (GB Hallway)</p>
-
-
-                                </td>
-
-
-                            </tr>
-
-                            <tr>
-                                <td class="time">03:30PM</td>
-
-                                <td class="slot slot-edu" colspan="1" rowspan="1">
-
-
-                                <span class="title">
-                                    <a href="/scipy2014/schedule/presentation/1691/">Zeke: A Python Platform for Teaching Mathematical Modeling of Infectious Diseases</a>
-                                </span>
-                                <span class="speaker">
-                                    Eric Lofgren
-                                </span>
-
-
-                                </td>
-
-                                <td class="slot slot-geospatial" colspan="1" rowspan="1">
-
-
-                                <span class="title">
-                                    <a href="/scipy2014/schedule/presentation/1692/">Cartopy</a>
-                                </span>
-                                <span class="speaker">
-                                    Richard Hattersley
-                                </span>
-
-
-                                </td>
-
-                                <td class="slot slot-General" colspan="1" rowspan="1">
-
-
-                                <span class="title">
-                                    <a href="/scipy2014/schedule/presentation/1693/">airspeed velocity: tracking performance of Python projects over their lifetime</a>
-                                </span>
-                                <span class="speaker">
-                                    Michael Droettboom
-                                </span>
-
-
-                                </td>
-
-
-                            </tr>
-
-                            <tr>
-                                <td class="time">04:00PM</td>
-
-                                <td class="slot slot-edu" colspan="1" rowspan="1">
-
-
-                                <span class="title">
-                                    <a href="/scipy2014/schedule/presentation/1694/">Scientific Computing in the Undergraduate Meteorology Curriculum at Millersville University</a>
-                                </span>
-                                <span class="speaker">
-                                    Alex DeCaria
-                                </span>
-
-
-                                </td>
-
-                                <td class="slot slot-geospatial" colspan="1" rowspan="1">
-
-
-                                <span class="title">
-                                    <a href="/scipy2014/schedule/presentation/1695/">Ocean Model Assessment for Everyone</a>
-                                </span>
-                                <span class="speaker">
-                                    Richard Signell
-                                </span>
-
-
-                                </td>
-
-                                <td class="slot slot-General" colspan="1" rowspan="1">
-
-
-                                <span class="title">
-                                    <a href="/scipy2014/schedule/presentation/1696/">Reproducible, relocatable, customizable builds and packaging with HashDist</a>
-                                </span>
-                                <span class="speaker">
-                                    Aron Ahmadia, Andy Terrel, Chris Kees, Chris Kees, Dag Sverre Seljebotn, Ondrej Certik
-                                </span>
-
-
-                                </td>
-
-
-                            </tr>
-
-                            <tr>
-                                <td class="time">04:30PM</td>
-
-                                <td class="slot slot-lightning" colspan="1" rowspan="1">
-
-
-                                    lightning
-
-
-                                </td>
-
-
-                            </tr>
-
-                            <tr>
-                                <td class="time">05:30PM</td>
-
-                                <td class="slot slot-BOFs" colspan="1" rowspan="1">
-
-
-                                    <p>See BOF schedule</p>
-
-
-                                </td>
-
-                                <td class="slot slot-BOFs" colspan="1" rowspan="1">
-
-
-                                    <p>See BOF schedule</p>
-
-
-                                </td>
-
-                                <td class="slot slot-BOFs" colspan="1" rowspan="1">
-
-
-                                    <p>See BOF schedule</p>
-
-
-                                </td>
-
-                                <td class="slot slot-BOFs" colspan="1" rowspan="1">
-
-
-                                    <p>BOFs (Room 106)</p>
-
-
-                                </td>
-
-
-                            </tr>
-
-                            <tr>
-                                <td class="time">07:00PM</td>
-
-                                <td class="slot slot-special" colspan="1" rowspan="1">
-
-
-                                    <p>SciPy Reception and Job Fair (AT&amp;T Conference Center)</p>
-
-
-                                </td>
-
-
-                            </tr>
-
-                            <tr>
-                                <td class="time">09:00PM</td>
-
-
-                                <td colspan="4"></td>
-
-                            </tr>
-
                             </tbody>
                         </table>
+                    </div>
+                    <div class="col-md-3">
+                        <table class="calendar table table-bordered">
+                            <thead>
+                            <tr class="success">
+                                <th class="time">&nbsp;</th>
+                                <th>Viernes 4</th>
+                            </tr>
+                            </thead>
+                            <tbody>
 
+                            <tr>
+                                <td class="time"><small>09:00-9:50</small></td>
+                                <td colspan="1" rowspan="1">Plática</td>
+                            </tr>
+
+                            <tr>
+                                <td class="time"><small>10:00-11:30</small></td>
+                                <td colspan="2" rowspan="1">
+                                    <p>Curso I</p>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="time"><small>11:30-12:00</small></td>
+                                <td colspan="2" rowspan="1">Café</td>
+                            </tr>
+
+                            <tr>
+                                <td class="time"><small>12:00-12:50</small></td>
+                                <td colspan="2" rowspan="1">Plática</td>
+                            </tr>
+
+                            <tr>
+                                <td class="time"><small>13:00-13:50</small></td>
+                                <td colspan="2" rowspan="1">Plática</td>
+                            </tr>
+
+                            <tr>
+                                <td class="time"><small>14:00-16:00</small></td>
+                                <td colspan="2" rowspan="1">Comida</td>
+                            </tr>
+
+                            <tr>
+                                <td class="time"><small>16:00-17:30</small></td>
+                                <td colspan="2" rowspan="1">Curso II</td>
+                            </tr>
+
+                            <tr>
+                                <td class="time"><small>17:30-19:00</small></td>
+                                <td colspan="2" rowspan="1">Rally</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col-md-3">
+                        <table class="calendar table table-bordered">
+                            <thead>
+                            <tr class="success">
+                                <th class="time">&nbsp;</th>
+                                <th>Sábado 5</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td class="time"><small>09:00-10:10</small></td>
+                                <td colspan="1" rowspan="1">Curso I</td>
+                            </tr>
+                            <tr>
+                                <td class="time"><small>10:15-11:25</small></td>
+                                <td colspan="1" rowspan="1">Curso II</td>
+                            </tr>
+                            <tr>
+                                <td class="time"><small>11:30-12:00</small></td>
+                                <td colspan="1" rowspan="1">Café</td>
+                            </tr>
+                            <tr>
+                                <td class="time"><small>12:00-13:50</small></td>
+                                <td colspan="1" rowspan="1">Exposiciones</td>
+                            </tr>
+                            <tr>
+                                <td class="time"><small>14:00-16:00</small></td>
+                                <td colspan="1" rowspan="1">Comida</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="space"></div>
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <p>El rally consiste en formar equipos y resolver problemas relacionados con las
+                            pláticas y cursos impartidos ese día. Los puntos obtenidos por cada respuesta
+                            correcta se sumarán y al final los ganadores recibirán un premio. A los
+                            equipos se les pedirá que expongan aquellas respuestas ingeniosas o bien
+                            elaboradas. Las exposiciones darán conclusión a Una Ventana Discreta.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
         <!-- section end -->
 
-		<!-- section start -->
-		<!-- ================ -->
-		<div class="section translucent-bg bg-image-2 pb-clear">
-			<div class="container object-non-visible">
-				<h1 id="clients" class="title text-center">Clients</h1>
-				<div class="space"></div>
-				<div class="row">
-					<div class="col-md-4">
-						<div class="media testimonial">
-							<div class="media-left">
-								<img src="images/testimonial-1.png" alt="">
-							</div>
-							<div class="media-body">
-								<h3 class="media-heading">You are Amazing!</h3>
-								<blockquote>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure aperiam consequatur quo.</p>
-									<footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
-								</blockquote>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="media testimonial">
-							<div class="media-left">
-								<img src="images/testimonial-2.png" alt="">
-							</div>
-							<div class="media-body">
-								<h3 class="media-heading">Yeah!</h3>
-								<blockquote>
-									<p>Iure aperiam consequatur quo quis exercitationem reprehenderit dolor vel ducimus.</p>
-									<footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
-								</blockquote>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="media testimonial">
-							<div class="media-left">
-								<img src="images/testimonial-3.png" alt="">
-							</div>
-							<div class="media-body">
-								<h3 class="media-heading">Thank You!</h3>
-								<blockquote>
-									<p>Aperiam consequatur quo quis exercitationem reprehenderit suscipit iste placeat.</p>
-									<footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
-								</blockquote>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-4">
-						<div class="media testimonial">
-							<div class="media-left">
-								<img src="images/testimonial-2.png" alt="">
-							</div>
-							<div class="media-body">
-								<h3 class="media-heading">Thank You!</h3>
-								<blockquote>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure aperiam consequatur quo.</p>
-									<footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
-								</blockquote>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="media testimonial">
-							<div class="media-left">
-								<img src="images/testimonial-3.png" alt="">
-							</div>
-							<div class="media-body">
-								<h3 class="media-heading">Amazing!</h3>
-								<blockquote>
-									<p>Iure aperiam consequatur quo quis exercitationem reprehenderit dolor vel ducimus.</p>
-									<footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
-								</blockquote>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="media testimonial">
-							<div class="media-left">
-								<img src="images/testimonial-1.png" alt="">
-							</div>
-							<div class="media-body">
-								<h3 class="media-heading">Best!</h3>
-								<blockquote>
-									<p>Aperiam consequatur quo quis exercitationem reprehenderit suscipit iste placeat.</p>
-									<footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
-								</blockquote>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- section start -->
-			<!-- ================ -->
-			<div class="translucent-bg blue">
-				<div class="container">
-					<div class="list-horizontal">
-						<div class="row">
-							<div class="col-xs-2">
-								<div class="list-horizontal-item">
-									<img src="images/client-1.png" alt="client">
-								</div>
-							</div>
-							<div class="col-xs-2">
-								<div class="list-horizontal-item">
-									<img src="images/client-2.png" alt="client">
-								</div>
-							</div>
-							<div class="col-xs-2">
-								<div class="list-horizontal-item">
-									<img src="images/client-3.png" alt="client">
-								</div>
-							</div>
-							<div class="col-xs-2">
-								<div class="list-horizontal-item">
-									<img src="images/client-4.png" alt="client">
-								</div>
-							</div>
-							<div class="col-xs-2">
-								<div class="list-horizontal-item">
-									<img src="images/client-5.png" alt="client">
-								</div>
-							</div>
-							<div class="col-xs-2">
-								<div class="list-horizontal-item">
-									<img src="images/client-6.png" alt="client">
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- section end -->
-		</div>
-		<!-- section end -->
+        <!-- section start -->
+        <!-- ================ -->
+<!--        <div class="section gray-bg">
+            <div class="container">
+                <h1 class="text-center title" id="platicas">Pláticas y Cursos</h1>
+                <div class="separator"></div>
+                <p class="lead text-center">Los expositores de los cursos y las pláticas se darán a conocer más adelante.</p>
+                <br>
+                <div class="page-header">
+                    &lt;!&ndash;<h3>Pĺaticas</h3>&ndash;&gt;
+                </div>
+                <div class="row">
+
+                </div>
+            </div>
+        </div>-->
+        <!-- section end -->
+
+        <!-- section start -->
+        <!-- ================ -->
+        <div class="section translucent-bg bg-image-2 pb-clear">
+            <div class="container object-non-visible" data-animation-effect="fadeIn">
+                <h1 id="platicas" class="title text-center">Pláticas y Cursos</h1>
+                <div class="space"></div>
+                <div class="separator"></div>
+                <p class="lead text-center">Los expositores de los cursos y las pláticas se darán a conocer más adelante.</p>
+                <br>
+                <div class="page-header">
+                    <!--<h3>Pĺaticas</h3>-->
+                </div>
+                <div class="row">
+                </div>
+                <div class="space"></div>
+                <div class="space"></div>
+                <div class="space"></div>
+                <div class="space"></div>
+                <div class="space"></div>
+                <div class="space"></div>
+            </div>
+        </div>
 
 		<!-- section start -->
 		<!-- ================ -->
-		<div class="default-bg space">
+<!--		<div class="default-bg space">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2">
@@ -1004,75 +567,151 @@ impartidos por profesores e investigadores expertos en los temas que se abordar�
 					</div>
 				</div>
 			</div>
-		</div>
-		<!-- section end -->
+		</div>-->
+        <!-- section end -->
 
-		<!-- footer start -->
-		<!-- ================ -->
-		<footer id="footer">
+        <!-- footer start -->
+        <!-- ================ -->
+        <footer id="footer">
 
 			<!-- .footer start -->
 			<!-- ================ -->
 			<div class="footer section">
 				<div class="container">
-					<h1 class="title text-center" id="contact">Contact Us</h1>
-					<div class="space"></div>
-					<div class="row">
-						<div class="col-sm-6">
-							<div class="footer-content">
-								<p class="large">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel nam magnam natus tempora cumque, aliquam deleniti voluptatibus voluptas. Repellat vel, et itaque commodi iste ab, laudantium voluptas deserunt nobis.</p>
-								<ul class="list-icons">
-									<li><i class="fa fa-map-marker pr-10"></i> One infinity loop, 54100</li>
-									<li><i class="fa fa-phone pr-10"></i> +00 1234567890</li>
-									<li><i class="fa fa-fax pr-10"></i> +00 1234567891 </li>
-									<li><i class="fa fa-envelope-o pr-10"></i> your@email.com</li>
-								</ul>
-								<ul class="social-links">
-									<li class="facebook"><a target="_blank" href="https://www.facebook.com/pages/HtmlCoder/714570988650168"><i class="fa fa-facebook"></i></a></li>
-									<li class="twitter"><a target="_blank" href="https://twitter.com/HtmlcoderMe"><i class="fa fa-twitter"></i></a></li>
-									<li class="googleplus"><a target="_blank" href="http://plus.google.com"><i class="fa fa-google-plus"></i></a></li>
-									<li class="skype"><a target="_blank" href="http://www.skype.com"><i class="fa fa-skype"></i></a></li>
-									<li class="linkedin"><a target="_blank" href="http://www.linkedin.com"><i class="fa fa-linkedin"></i></a></li>
-									<li class="youtube"><a target="_blank" href="http://www.youtube.com"><i class="fa fa-youtube"></i></a></li>
-									<li class="flickr"><a target="_blank" href="http://www.flickr.com"><i class="fa fa-flickr"></i></a></li>
-									<li class="pinterest"><a target="_blank" href="http://www.pinterest.com"><i class="fa fa-pinterest"></i></a></li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-sm-6">
-							<div class="footer-content">
-								<form role="form" id="footer-form">
-									<div class="form-group has-feedback">
-										<label class="sr-only" for="name2">Name</label>
-										<input type="text" class="form-control" id="name2" placeholder="Name" name="name2" required>
-										<i class="fa fa-user form-control-feedback"></i>
-									</div>
-									<div class="form-group has-feedback">
-										<label class="sr-only" for="email2">Email address</label>
-										<input type="email" class="form-control" id="email2" placeholder="Enter email" name="email2" required>
-										<i class="fa fa-envelope form-control-feedback"></i>
-									</div>
-									<div class="form-group has-feedback">
-										<label class="sr-only" for="message2">Message</label>
-										<textarea class="form-control" rows="8" id="message2" placeholder="Message" name="message2" required></textarea>
-										<i class="fa fa-pencil form-control-feedback"></i>
-									</div>
-									<input type="submit" value="Send" class="btn btn-default">
-								</form>
-							</div>
-						</div>
-					</div>
+					<h1 class="title text-center" id="sede">Sede</h1>
+
+                    <!--<p class="large text-center"><a href="http://umdi-juriquilla.fciencias.unam.mx/"><strong>Unidad Multidisciplinaria de Docencia e Investigación (UMDI, FC), UNAM, Campus Juriquilla</strong></strong></a></p>-->
+                    <div class="space"></div>
+
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <div class="footer-content">
+                                <address>
+                                    <a href="http://umdi-juriquilla.fciencias.unam.mx/"><strong>Unidad Multidisciplinaria de Docencia e Investigación</strong></a><br>
+                                    Universidad Nacional Autónoma de México - Facultad de CIencias<br>
+                                    Campus Juriquilla<br>
+                                    Boulevard Juriquilla 3001<br>
+                                    C.P. 76230 <br>
+                                    Juriquilla, Querétaro, México<br>
+                                    <abbr>Tel:</abbr> (55) 56234301 y 56234302
+                                </address>
+                                <p class="large"></p>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-7">
+                            <div class="map_container">
+                                <div id="map_canvas" class="map_canvas"></div>
+                            </div>
+
+                            <script>
+                                function initMap() {
+                                    var myLatLng = {lng: -100.4454526, lat: 20.7019569};
+
+                                    var map = new google.maps.Map(document.getElementById('map_canvas'), {
+                                        zoom: 18,
+                                        center: myLatLng
+                                    });
+
+                                    var marker = new google.maps.Marker({
+                                        position: myLatLng,
+                                        map: map,
+                                        title: 'Ventana Discreta'
+                                    });
+                                }
+
+                            </script>
+                            <script async defer
+                                    src="https://maps.googleapis.com/maps/api/js?signed_in=true&callback=initMap">
+                            </script>
+                        </div>
+                    </div>
+                    <div class="row">
+                    </div>
 				</div>
 			</div>
 			<!-- .footer end -->
+            <div class="container">
+                <div class="row">
+                    <h1><small>Galería</small></h1>
+                    <div class="row">
+                        <!-- <div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 5" href="#"><img class="thumbnail img-responsive" src="gallery/unamjuriquilla.jpg"></a></div>
+                         <div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 3" href="#"><img class="thumbnail img-responsive" src="gallery/edificio4.jpg"></a></div>-->
+                        <div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 1" href="#"><img class="thumbnail img-responsive" src="gallery/cac1.jpg"></a></div>
+                        <div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 2" href="#"><img class="thumbnail img-responsive" src="gallery/cac2.jpg"></a></div>
+                        <!--                </div>
+                                        <div class="row">-->
+                        <div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 3" href="#"><img class="thumbnail img-responsive" src="gallery/edificio1.jpg"></a></div>
+                        <div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 4" href="#"><img class="thumbnail img-responsive" src="gallery/edificioJuriquilla.jpg"></a></div>
+                        <!--<div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 5" href="#"><img class="thumbnail img-responsive" src="gallery/juriquilla.jpg"></a></div>-->
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal" id="myModal" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button class="close" type="button" data-dismiss="modal">×</button>
+                            <h3 class="modal-title"></h3>
+                        </div>
+                        <div class="modal-body">
+                            <div id="modalCarousel" class="carousel">
+
+                                <div class="carousel-inner">
+
+                                </div>
+
+                                <a class="carousel-control left" href="#modaCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
+                                <a class="carousel-control right" href="#modalCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
+
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
 			<!-- .subfooter start -->
 			<!-- ================ -->
 			<div class="subfooter">
 				<div class="container">
+                    <div class="space"></div>
+                    <h1><small>Patrocinadores</small></h1>
+                    <div class="row">
+                        <div class="col-xs-2">
+                            <div class="list-horizontal-item">
+                                <img src="images/logoConacyt.gif" alt="conacyt" style="width: 70%;height: auto;">
+                            </div>
+                        </div>
+                        <div class="col-xs-2">
+                            <div class="list-horizontal-item">
+                                <img src="images/logoIMATE.gif" alt="IMATE">
+                            </div>
+                        </div>
+                        <div class="col-xs-2">
+                            <div class="list-horizontal-item">
+                                <img src="images/LogoJuriquilla.gif" alt="Juriquilla" style="width: 35%;height: auto;">
+                            </div>
+                        </div>
+                        <div class="col-xs-3">
+                            <div class="list-horizontal-item">
+                                <img src="images/logo-ccm.gif" alt="ccm" style="width: 150%;height: auto;">
+                            </div>
+                        </div>
+                        <div class="col-xs-2">
+                            <div class="list-horizontal-item">
+                                <img src="images/logo-CAC.gif" alt="cac" style="width: 90%;height: auto;">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="space"></div>
 					<div class="row">
 						<div class="col-md-12">
-							<p class="text-center">Copyright © 2014 Worthy by <a target="_blank" href="http://htmlcoder.me">HtmlCoder</a>.</p>
+							<p class="text-center">Centro de Ciencias Matemáticas UNAM 2015.</p>
 						</div>
 					</div>
 				</div>
@@ -1095,16 +734,60 @@ impartidos por profesores e investigadores expertos en los temas que se abordar�
 		<script type="text/javascript" src="plugins/isotope/isotope.pkgd.min.js"></script>
 		
 		<!-- Backstretch javascript -->
-		<script type="text/javascript" src="plugins/jquery.backstretch.min.js"></script>
+        <script type="text/javascript" src="plugins/jquery.backstretch.min.js"></script>
 
-		<!-- Appear javascript -->
-		<script type="text/javascript" src="plugins/jquery.appear.js"></script>
+        <!-- Appear javascript -->
+        <script type="text/javascript" src="plugins/jquery.appear.js"></script>
 
-		<!-- Initialization of Plugins -->
-		<script type="text/javascript" src="js/template.js"></script>
+        <!-- Initialization of Plugins -->
+        <script type="text/javascript" src="js/template.js"></script>
 
-		<!-- Custom Scripts -->
-		<script type="text/javascript" src="js/custom.js"></script>
+        <!-- Custom Scripts -->
+        <script type="text/javascript" src="js/custom.js"></script>
 
-	</body>
+        <!-- JavaScript jQuery code from Bootply.com editor  -->
+
+        <script type='text/javascript'>
+
+            $(document).ready(function() {
+
+                /* copy loaded thumbnails into carousel */
+                $('.row .thumbnail').on('load', function() {
+
+                }).each(function(i) {
+                    if(this.complete) {
+                        var item = $('<div class="item"></div>');
+                        var itemDiv = $(this).parents('div');
+                        var title = $(this).parent('a').attr("title");
+
+                        item.attr("title",title);
+                        $(itemDiv.html()).appendTo(item);
+                        item.appendTo('.carousel-inner');
+                        if (i==0){ // set first item active
+                            item.addClass('active');
+                        }
+                    }
+                });
+
+                /* activate the carousel */
+                $('#modalCarousel').carousel({interval:false});
+
+                /* change modal title when slide changes */
+                $('#modalCarousel').on('slid.bs.carousel', function () {
+                    $('.modal-title').html($(this).find('.active').attr("title"));
+                })
+
+                /* when clicking a thumbnail */
+                $('.row .thumbnail').click(function(){
+                    var idx = $(this).parents('div').index();
+                    var id = parseInt(idx);
+                    $('#myModal').modal('show'); // show the modal
+                    $('#modalCarousel').carousel(id); // slide carousel to selected
+
+                });
+            });
+
+        </script>
+
+    </body>
 </html>
