@@ -577,7 +577,7 @@ impartidos por profesores e investigadores expertos en los temas que se abordar�
                         <div class="media">
                             <div class="media-body text-left">
                                 <h4 class="media-heading"><a href="#"  data-toggle="modal" data-target="#miguelModal">La explosiva creatividad de la dinámica clánica</a></h4>
-                                <p class="text-left">Miguel Pizaña (UAM-I) <a href="#"  data-toggle="modal" data-target="#mTemarioModal"><i class="fa fa-caret-right"></i>Temario</a></p>
+                                <p class="text-left">Miguel Pizaña (UAM-I) <a href="#"  data-toggle="modal" data-target="#mTemarioModal"><i class="fa fa-caret-right"></i>Resumen</a></p>
                             </div>
                         </div>
                     </div>
@@ -945,14 +945,14 @@ impartidos por profesores e investigadores expertos en los temas que se abordar�
                             El sistema dinámico que nos interesa estudiar aquí es el sistema dinámico
                             clánico que es un sistema discreto: El tiempo transcurre a saltos (como los
                             enteros, no como los reales) y en cada momento el estado del sistema está
-                            descrito por una gráfica ( = vértices + aristas) G y la ley que gobierna la
-                            transformación del sistema es el operador de clanes K, que transforma a G en
-                            K(G) y al siguiente instante la transforma en K^2(G) y luego en K^3(G), ... etc.<br><br>
+                            descrito por una gráfica ( = vértices + aristas) $G$ y la ley que gobierna la
+                            transformación del sistema es el operador de clanes $K$, que transforma a $G$ en
+                            $K(G)$ y al siguiente instante la transforma en $K^2(G)$ y luego en $K^3(G)$, ... etc.<br><br>
 
-                            La regla específica usada para calcular K(G) es la siguiente: Por cada
-                            subgráfica completa maximal de G, pon un vértice nuevo en K(G) y cada vez que
-                            dos de estas subgráficas de G se intersecten pon una arista entre los
-                            respectivos vértices de K(G).<br><br>
+                            La regla específica usada para calcular $K(G)$ es la siguiente: Por cada
+                            subgráfica completa maximal de G, pon un vértice nuevo en $K(G)$ y cada vez que
+                            dos de estas subgráficas de $G$ se intersecten pon una arista entre los
+                            respectivos vértices de $K(G)$.<br><br>
 
                             El sistema dinámico resultante ha sido estudiado intensamente desde hace 47
                             años y ha resultado ser extremadamente complejo, con comportamientos que,
@@ -965,7 +965,7 @@ impartidos por profesores e investigadores expertos en los temas que se abordar�
                             aplicaciones en física, donde se ha usado para modelar el espacio-tiempo
                             discreto que se cree que subyace a nuestra realidad física a la escala de la
                             longitud de Planck
-                            ( = 1.6 x10^(-35) metros ) en teorías de gravitación cuántica (Loop Quantum
+                            ($ = 1.6 \times 10^{-35}$ metros ) en teorías de gravitación cuántica (Loop Quantum
                             Gravity & Quantum Graphity).<br><br>
                         </p>
                     </div>
@@ -1216,6 +1216,9 @@ impartidos por profesores e investigadores expertos en los temas que se abordar�
             });
 
         </script>
-
+        <script type="text/x-mathjax-config">
+            MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+        </script>
+        <script  type="text/javascript" src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
     </body>
 </html>
